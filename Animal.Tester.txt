@@ -1,0 +1,30 @@
+package aula06;
+
+public class AnimalTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Mamifero mamifero = new Mamifero();
+		mamifero.locomover();
+		mamifero.corPelo();
+		
+		Repitil repitil = new Repitil();
+		repitil.locomover();
+		repitil.corEscama();
+		
+		Peixe peixe = new Peixe();
+		peixe.locomover();
+		peixe.corEscama();
+		peixe.soltarBolha();
+		
+		Ave ave = new Ave();
+		ave.locomover();
+		ave.corPena();
+		ave.fazerNinho();
+		
+		
+
+	}
+
+}
